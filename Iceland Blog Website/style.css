@@ -1,0 +1,166 @@
+body{
+    background-color: rgba(250, 250, 250, 0.866);
+    font-family: 'Times New Roman', Times, serif;
+    }
+    /* Home.html */
+
+    /* <!-- Logo a1,a2,a3 --> */
+    .a1{
+        display: flex ;
+        float: left;
+        height: 75px;
+        padding-left: 2%;
+    }
+    .a2{
+        display: flex ;
+        float: right;
+        height: 80px;
+        padding-right: 2%;
+    }
+    .a3{
+        padding-bottom: 80px;
+    }
+    /* <!-- Heading a4,a5 --> */
+    .a4{
+        text-align: center;
+    }
+    .a5{
+        font-style: italic;
+    }
+    /* <!-- Pink Box a6-a14 --> */
+    .a6{
+        display:block;
+        border: 1px solid black;
+        background-color: pink;
+        height: 650px;
+        color: whitesmoke;
+        padding: 15px 10px;
+     }
+     .a8{
+        float: left;
+    }
+    .a9, .a12{
+        border: 2px solid purple;
+        width: 20vw;
+    }
+    .a10{
+        display: flex;
+        text-align: left;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .a11{
+        float: right;
+    }
+    .a13{
+        text-align: left;
+        padding-top: 130px;
+        padding-bottom: 90px;
+        padding-left: 50px;
+    }
+    
+    
+    /*.a7, .a14{}*/
+
+     /* Upcoming Events a15*/
+     /* .a15{} */
+
+     /* Newsfeed a16,a17*/
+     /* .a16{} */
+
+     .a17{
+        font-style: italic;
+        font-weight: bold;
+     }
+
+     /* <!--   Trip Cost a18-a20-->  */
+     table.a18{
+        border: 3px solid black;
+     }
+     .a19{
+        background-color: rgb(144,238,144);
+     }
+     .a20{
+        background-color: rgb(255,192,203);
+     }
+
+     /* <!-- Contact US a21 --> */
+     .a21{
+        width: 50px;
+        height: 50px;
+     }
+
+     /* <!-- Footer a22--> */
+     .a22{
+        text-align: center;
+        font-size: 110%;
+     }
+
+    /* The Nothern Lights.html */
+     
+    /*  <!-- HEADING a23 --> */
+     .a23{
+        text-align: center;
+     }
+    /*   <!-- 3Box a23,a24 -->*/
+    .a24{
+        width: 35%;
+        height: 30%;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 1px;
+        float: left;
+    }
+    .a25{
+        border: 2px solid black;
+        padding: 25px;
+        background-color: rgb(238,236,225);
+        margin: 5px;
+        font-size: 150%;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-shadow: inset 0 0 0 5px #4f81bd;
+        
+    }
+    .a26{
+        width: 35%;
+        height: 30%;
+        border: 3px solid rgb(0, 0, 0);
+        margin: 2px;
+        float: right;
+        display: flex;
+    }
+    .a27{
+        display: flex;
+        margin: 10px;
+        padding: 50px;
+    }
+    .a28{
+        padding: 10px 10px 2px 2px;
+        text-align: justify;
+    }
+   
+    /* Contact Us */
+    table.c1{
+        margin-left: auto; 
+        margin-right: auto;
+        padding: 100px 10px;
+    }
+    .ta1{
+        width: 95%;
+        padding: 10px;
+        height: 50px;
+    }
+    /* .c2{
+        position:absolute;
+        top:50%;
+        right: 20%; 
+        width: 120px;
+        transform: translateY(-80%) translateX(-530%); 
+        
+      } */
+      .c3{
+        text-align: center;
+        padding-top: 100px;
+     }

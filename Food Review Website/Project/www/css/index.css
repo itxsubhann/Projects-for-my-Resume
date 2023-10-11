@@ -1,0 +1,40 @@
+
+		body, html {
+			margin: 0;
+			padding: 0;
+			font-family: Arial;				
+		}
+		ul {
+			font-style: italic;
+			list-style: square;
+			}
+		.container {
+			width: 960px;
+			margin: 0 auto;
+		  }
+h1{
+	background-color: rosybrown;
+	display: inline-block;
+}
+		  
+		  /* Styles for mobile screens */
+		  @media only screen and (max-width: 600px) {
+			.container {
+			  width: 100%;
+			}
+		  }
+			label {
+      display: block;
+      margin-top: 10px;
+    }
+    input[type="text"],
+	input[type="email"],
+    textarea {
+      width: 300px;
+	
+    }
+    button {
+      margin-top: 10px;
+    }
+
+		  

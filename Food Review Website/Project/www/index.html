@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<head>
+   <title> Top Resturants and Halal Resturants </title>
+<link rel="stylesheet" href="css/index.css">
+<script src="js/index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<center>
+		<img src="img/r1.jpg" width="400" height="300" alt=""/>
+	</center>
+<h1>Top Resturants and Halal Resturants</h1>
+	<h3>Please Select from the link below to view the resturants menu or make a reservation:</h3>
+		<center>
+			<h1 > 1. Halal Resturants </h1>
+		</center>
+	<ul>
+		<li>
+			<a href="hr/hfood.html" title="Halal Resturants" target="_self">Click me to be redirected &#128293;</a>
+		</li>
+	</ul>
+	<center>
+		<h1> 2. Resturants </h1>
+	</center>
+	<ul>
+		<li><a href="https://finofrenchbistro.com/menu" title="French cuisine" target="_blank">French cuisine </a> </li>
+		<li><a href="https://uncletedsnyc.com/dine-in-menu/?y_source=1_MjI1NDAyNjItNzE1LWxvY2F0aW9uLm1lbnVfdXJs" title="Chinese Cuisine" target="_blank">Chinese Cuisine</a> </li>
+		<li><a href="https://www.paolasnyc.com/home.html#menus" title="Italian Cuisine" target="_blank">Italian Cuisine</a> </li>
+		<li><a href="https://avleegreekkitchen.com/" title="Greek Cuisine" target="_blank">Greek Cuisine</a> </li>
+		<li><a href="https://www.littlespain.com/order-online/" title="Spanish Cuisine" target="_blank">Spanish Cuisine</a> </li>
+		<li><a href="https://imlirestaurant.getbento.com/online-ordering/imli-restaurant/menu" title="Indian Cuisine" target="_blank">Indian Cuisine</a> </li>
+		<li><a href="https://www.thedutchnyc.com/" title="American cuisine" target="_blank">American cuisine</a> </li>
+		<li><a href="https://elcartelnyc.com/#menus" title="Coloumbian cuisine" target="_blank">Coloumbian cuisine</a> </li>
+		<li><a href="https://akbarrestaurant.lightspeedordering.com/" title="Pakistani Cuisine" target="_blank">Pakistani Cuisine</a> </li>
+		<li><a href="https://www.sweetrehabnyc.com/online-ordering/sweet-rehab-ny/menu" title="Desserts and Baked Goods" target="_blank">Desserts and Baked Goods</a> </li>
+				
+	</ul>
+	<h2>Contact Us:</h2>
+
+  <form method="post" action="thankyou.html">
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" required>
+
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+
+    <label for="comment">Comment:</label>
+    <textarea id="comment" rows="4" required></textarea>
+    <br>
+    <button type="submit">Submit</button>
+    <button type="reset" onclick="clearForm()">Clear</button>
+</form>
+
+<script>
+    function clearForm() {
+        document.getElementById("first-name").value = "";
+        document.getElementById("last-name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("comment").value = "";
+    }
+</script>
+
+	<br>
+	<center><h3>Follow Me:</h3><h2><a href="https://www.linkedin.com/in/itxsubhann/" title="LinkedIn" target="_blank"> LinkedIn </a></h2></center>
+	
+</body>
+</html>
